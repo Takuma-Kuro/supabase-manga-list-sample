@@ -16,9 +16,8 @@ if (user) {
           <Button
             size="medium"
             icon={<IconLogOut />}
-            onClick={() => client.auth.signOut()}
->
-Sign out
+            onClick={() => client.auth.signOut()}>
+              Sign out
           </Button>
         </div>
 </div> );
