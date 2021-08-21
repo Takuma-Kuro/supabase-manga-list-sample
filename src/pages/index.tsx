@@ -36,6 +36,7 @@ const Home = () => {
                 supabaseClient={client}
                 providers={["github"]}
                 socialColors={true}
+
                 />
               </div>
             </div>
